@@ -10,7 +10,7 @@ import sys
 import os
 
 
-required = [
+REQUIRED = [
     'numpy'
     'pandas'
 ]
