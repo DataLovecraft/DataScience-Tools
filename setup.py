@@ -11,8 +11,8 @@ import os
 
 
 REQUIRED = [
-    'numpy'
-    'pandas'
+    'numpy',
+    'pandas',
     'spacy'
 ]
 
@@ -27,7 +27,7 @@ with open("README.md", "r") as fh:
     long_description_content_type="text/markdown",
     url="https://github.com/DataLovecraft/DataScience-Tools",
     packages=setuptools.find_packages(),
-    python_requires=">=3.5",
+    python_requires=">=3.6",
     install_requires = REQUIRED,
     classifiers=["Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
