@@ -13,13 +13,14 @@ import os
 REQUIRED = [
     'numpy'
     'pandas'
+    'spacy'
 ]
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
     setuptools.setup(
     name="DataScience-ToolBox",
-    version = "0.1.1",
+    version = "0.1.2",
     author = "Johann Augustine",
     description = "A set of python modules for machine learning and data mining",
     long_description = LONG_DESCRIPTION,
